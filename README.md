@@ -8,7 +8,7 @@ The following ROS packages are required:
 - pcl_ros
 - <a href="https://github.com/laboshinl/loam_velodyne.git">loam_velodyne</a>
 ```bash
-sudo apt-get install ros-indigo-pcl_ros
+sudo apt-get install ros-indigo-pcl-ros
 
 ```
 
