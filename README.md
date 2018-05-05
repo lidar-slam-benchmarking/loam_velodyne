@@ -13,7 +13,7 @@ sudo apt-get install ros-indigo-pcl_ros
 ```
 
 How to build loam_velodyne with catkin:
-
+```bash
 $ cd ~/catkin_ws/src/
 $ git clone https://github.com/laboshinl/loam_velodyne.git
 $ cd ~/catkin_ws
