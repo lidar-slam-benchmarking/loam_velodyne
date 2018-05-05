@@ -6,13 +6,14 @@ Sample map built from [husky.bag]
 
 The following ROS packages are required:
 - pcl_ros
-- <a href="https://github.com/laboshinl/loam_velodyne.git">ndt_omp</a>
+- <a href="https://github.com/laboshinl/loam_velodyne.git">loam_velodyne</a>
 ```bash
 sudo apt-get install ros-indigo-pcl_ros
 
+```
+
 How to build loam_velodyne with catkin:
 
-```
 $ cd ~/catkin_ws/src/
 $ git clone https://github.com/laboshinl/loam_velodyne.git
 $ cd ~/catkin_ws
