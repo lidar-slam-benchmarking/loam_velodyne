@@ -1,7 +1,16 @@
 ![Screenshot](/capture.bmp)
 Sample map built from [husky.bag]
 
-How to build with catkin:
+## Requirements
+*Note that this package should be installed in ROS indigo in Ubuntu 14.04*
+
+The following ROS packages are required:
+- pcl_ros
+- <a href="https://github.com/laboshinl/loam_velodyne.git">ndt_omp</a>
+```bash
+sudo apt-get install ros-indigo-pcl_ros
+
+How to build loam_velodyne with catkin:
 
 ```
 $ cd ~/catkin_ws/src/
@@ -9,16 +18,13 @@ $ git clone https://github.com/laboshinl/loam_velodyne.git
 $ cd ~/catkin_ws
 $ catkin_make -DCMAKE_BUILD_TYPE=Release 
 $ source ~/catkin_ws/devel/setup.bash
-```
 
+```
 ## Husky Dataset Instructions
 Download [husky.bag](https://drive.google.com/file/d/1QqVY7z-3ojrfrI3Q6LTY4Ui_0nkOpEqO/view?usp=sharing)
 
 ## Quad Dataset Instructions
 Download [nardos3.bag](https://drive.google.com/file/d/1jjilcRgPEUWECLCSd0r0EZuduAeX_RGM/view?usp=sharing)
-
-## Requirements
-*Note that this package should be installed in ROS indigo in Ubuntu 14.04*
 
 ## Running
 ```
