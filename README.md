@@ -1,4 +1,5 @@
 ![Screenshot](/husky_map.bmp)
+
 Sample map of NSH B floor built from [husky.bag]
 
 ## Requirements
