@@ -1,5 +1,5 @@
-![Screenshot](/capture.bmp)
-Sample map built from [husky.bag]
+![Screenshot](/husky_map.bmp)
+Sample map of NSH B floor built from [husky.bag]
 
 ## Requirements
 *Note that this package should be installed in ROS indigo in Ubuntu 14.04*
